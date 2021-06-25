@@ -2,6 +2,7 @@
 
 To build:
 ```
+make init
 make tailscale
 make upload
 make publish
