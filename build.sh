@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yum install -y yum-utils
-yum-config-manager --add-repo https://pkgs.tailscale.com/unstable/amazon-linux/2/tailscale.repo
+yum-config-manager --add-repo https://pkgs.tailscale.com/stable/amazon-linux/2/tailscale.repo
 yum -y install tailscale
 
 

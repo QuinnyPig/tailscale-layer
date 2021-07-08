@@ -5,8 +5,8 @@ REGIONS=$(aws ec2 describe-regions \
     --output text)
     
 cat << EOF > ./regions.sh
-REGIONS = {
-  $REGIONS
-}
+REGIONS=(
+$REGIONS
+)
 EOF
 chmod +x regions.sh
