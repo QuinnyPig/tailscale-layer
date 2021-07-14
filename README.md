@@ -1,5 +1,8 @@
 # Tailscale Layer For AWS Lambda
 
+The "why" behind this can be seen in the blog post [that attempts to explain it](https://www.lastweekinaws.com/blog/corey-writes-open-source-code-for-lambda-and-tailscale/) with humor and aplomb.
+
+
 To build:
 ```
 make init
